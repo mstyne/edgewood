@@ -34,11 +34,6 @@
     </abbr>
 	{% endif %}
     {% if article.authors %}
-    <address class="vcard author">
-      By {% for author in article.authors %}
-          <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-        {% endfor %}
-    </address>
     {% endif %}
   </footer><!-- /.post-info -->
   <div class="entry-content">
